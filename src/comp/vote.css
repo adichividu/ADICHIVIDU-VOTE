@@ -1,0 +1,19 @@
+.vote{
+    
+    background-color: black;
+    
+}
+.btn{
+    background-color: yellow;
+    width: 95%;
+    font-size: x-large;
+    border-radius: 18px;
+    margin: 10px;
+    height: 65px;
+   
+}
+.head{
+   color: white;
+   margin: 20px;
+  
+}
