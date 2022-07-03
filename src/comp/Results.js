@@ -22,10 +22,23 @@ function Results() {
         return () => subscriber();
       }, []);
   return (
-    <div className='head' ><center><h1>Results</h1> 
+    <div className='head' ><center><h1 className="heading fw-900 text-decoration-underline mb-3">RESULTS</h1>
 
     {Docs.map((votee)=>
-        <div><h2 className='vote' >{votee.name}   :   {votee.votes}</h2> </div>
+   
+        <div className='vote' id="results">
+          <table class="table table-dark table-striped">
+ 
+  <tbody>
+    <tr>
+      
+      <td><b className="ml-2">{votee.name}</b></td>
+      <td className="position-absolute end-10">{votee.votes}</td>
+    </tr>
+  </tbody>
+</table>
+        
+          </div>
     )}
       </center></div>
 

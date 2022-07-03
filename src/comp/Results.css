@@ -1,8 +1,10 @@
 
-h1{
-    color: white;
-    font-size: 50px;
+
+.vote ul li{
+    color: red;
+    display: inline;
 }
-.vote{
-    color: yellow;
+.vote li{
+    color: red;
+    display: inline;
 }

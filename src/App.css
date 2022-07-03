@@ -2,6 +2,33 @@
   text-align: center;
  
 }
+.heading{
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2.3px;
+  font-size: 25px;
+  color: #FFFF00;
+}
+#wa-share-btn{
+  color: #000000;
+  display: visible;
+  background: #FFFF00;
+  border-radius: 5px;
+  margin-left: 0.5px;
+  text-decoration: none;
+}
+#wa-share-btn:hover{
+  background: #FFFF00;
+  border-radius: 5px;
+  margin-left: 0.5px;
+}
+#wa-share-btn:focus{
+  background: #FFFF00;
+  border-radius: 5px;
+  margin-left: 0.5px;
+}
+
 
 
 
