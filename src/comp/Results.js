@@ -6,7 +6,7 @@ function Results() {
     useEffect(() => {                  
         const getVotesFromFirebase = [];
         const subscriber =
-        db.onSnapshot((querySnapshot) => {
+        db.orderBy("votes","desc").onSnapshot((querySnapshot) => {
             querySnapshot.forEach((doc) => {
               getVotesFromFirebase.push({
                 ...doc.data(), //spread operator

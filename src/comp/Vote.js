@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import { db } from '../server/firebase'
 import'./vote.css'
 import firebase from 'firebase'
-import aniruth from '../comp/aniruth.png';
+import aniruth from './aniruth.png';
+import male from '../comp/1000_F_168802075_Il6LeUG0NCK4JOELmkC7Ki81g0CiLpxU.jpg'
+import female from "./download.jpg"
 
 
 
@@ -20,7 +22,7 @@ function Vote() {
        
      }
      else{
-       alert(`you are allowed to cast vote only one time for ${key}`)
+       alert(`you are allowed to cast vote only one time`)
      }
    }
   return (
@@ -28,6 +30,17 @@ function Vote() {
         {/*<center><h1 className='head' >Vote For Your True Leader</h1></center>*/}
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+  <div class="col">
+    <div class="card h-100">
+      <img src={female} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">Subhkshini</h5>
+        
+        <button className='btn' onClick={()=>check("Subhkshini")}>Vote!</button>
+      </div>
+    </div>
+  </div>
   <div class="col">
     <div class="card h-100" border-black>
       <img src={aniruth} class="card-img-top" alt="..."/>
@@ -40,40 +53,30 @@ function Vote() {
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201905/ravi_kishan1_660_052319061852.jpg?size=948:533" class="card-img-top" alt="..."/>
+      <img src={male} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        
-        <button className='btn' onClick={()=>check("Vijay")}>Vijay</button>
+        <h5 class="card-title">Roshan</h5>
+        <button className='btn' onClick={()=>check("Roshan")}>vote!</button>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201905/ravi_kishan1_660_052319061852.jpg?size=948:533" class="card-img-top" alt="..."/>
+      <img src={female} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <button className='btn' onClick={()=>check("Thamana")}>Thamana</button>
+        <h5 class="card-title">Madhumitha</h5>
+        
+        <button className='btn' onClick={()=>check("Madhumitha")}>vote!</button>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201905/ravi_kishan1_660_052319061852.jpg?size=948:533" class="card-img-top" alt="..."/>
+      <img src={female} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Chitra</h5>
         
-        <button className='btn' onClick={()=>check("Ajith")}>Ajith</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/201905/ravi_kishan1_660_052319061852.jpg?size=948:533" class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        
-        <button className='btn' onClick={()=>check("PoojaHedge")}>PoojaHedge</button>
+        <button className='btn' onClick={()=>check("Chitra")}>vote!</button>
       </div>
     </div>
   </div>
