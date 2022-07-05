@@ -3,8 +3,8 @@ import { db } from '../server/firebase'
 import'./vote.css'
 import firebase from 'firebase'
 import aniruth from './aniruth.png';
-import male from '../comp/1000_F_168802075_Il6LeUG0NCK4JOELmkC7Ki81g0CiLpxU.jpg'
-import female from "./download.jpg"
+import roshan from './roshan.png';
+import female from "./female.png";
 
 
 
@@ -26,7 +26,7 @@ function Vote() {
      }
    }
   return (
-      <div className='vote mt-5' >
+      <div className='vote mt-3' >
         {/*<center><h1 className='head' >Vote For Your True Leader</h1></center>*/}
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -35,9 +35,18 @@ function Vote() {
     <div class="card h-100">
       <img src={female} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Subhkshini</h5>
+        <h5 class="card-title">Subhakshini</h5>
         
         <button className='btn' onClick={()=>check("Subhkshini")}>Vote!</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={roshan} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title fw-bolder">Roshan</h5>
+        <button className='btn fw-bolder' onClick={()=>check("Roshan")}>vote!</button>
       </div>
     </div>
   </div>
@@ -51,15 +60,7 @@ function Vote() {
       </div>
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src={male} class="card-img-top" alt="..."/>
-      <div class="card-body">
-        <h5 class="card-title">Roshan</h5>
-        <button className='btn' onClick={()=>check("Roshan")}>vote!</button>
-      </div>
-    </div>
-  </div>
+  
   <div class="col">
     <div class="card h-100">
       <img src={female} class="card-img-top" alt="..."/>

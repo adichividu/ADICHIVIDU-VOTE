@@ -10,7 +10,7 @@ return(
 <div className='app'>
 <nav className="navbar bg-black">
   <div className="container-fluid d-flex justify-content-between">
-  <a href="whatsapp://send?text=Share this with all your AVKian friends! lets grow this community together guys! https://adichividu.netlify.app -By Students For Students." class="badge fs-6 px-2 py-1" id="wa-share-btn" data-action="share/whatsapp/share"  
+  <a href="whatsapp://send?text=The current academic year's pre AVK election survey is taking place in https://avkvote.netlify.app ,Share this with all your AVKian friends! lets grow this community together guys! https://adichividu.netlify.app -By Students For Students. " class="badge fs-6 px-2 py-1" id="wa-share-btn" data-action="share/whatsapp/share"  
         target="_blank"><i class="fa fa-whatsapp mr-1 font-weight-bolder" aria-hidden="true"></i>Share</a>
   <h1 className="heading fw-900">ADICHIVIDU{/*<span className="sub-brand-name text-253C78 font-weight-bolder text-white">Chat</span>*/}</h1>
   <a href="#results" class="badge fs-6 px-2 py-1" id="wa-share-btn">Results</a>
