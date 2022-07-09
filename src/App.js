@@ -19,8 +19,8 @@ return(
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-8"><Vote/></div>
-    <div class="col-sm-4"><Results/></div>
+    <div class="col-sm-12"><Vote/></div>
+    {/*<div class="col-sm-4"><Results/></div>*/}
   </div>
   </div></div>
 

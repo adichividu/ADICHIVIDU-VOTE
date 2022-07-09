@@ -22,7 +22,18 @@ function Results() {
         return () => subscriber();
       }, []);
   return (
-    <div className='head' ><center><h1 className="heading fw-900 text-decoration-underline mb-3">RESULTS</h1>
+    <div className='head'>
+      <h4>The results will be out on 8/7/2022.
+        <br/>
+        Stay Tuned Nd keep VOTING!
+      </h4>
+
+
+
+
+
+
+      {/*<center><h1 className="heading fw-900 text-decoration-underline mb-3">RESULTS</h1>
 
     {Docs.map((votee)=>
    
@@ -40,7 +51,8 @@ function Results() {
         
           </div>
     )}
-      </center></div>
+    </center>*/}
+    </div>
 
     )
 }

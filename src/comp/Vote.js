@@ -5,6 +5,7 @@ import firebase from 'firebase'
 import aniruth from './aniruth.png';
 import roshan from './roshan.png';
 import female from "./female.png";
+import subhashini from "./subhashini.png";
 
 
 
@@ -33,11 +34,11 @@ function Vote() {
   
   <div class="col">
     <div class="card h-100">
-      <img src={female} class="card-img-top" alt="..."/>
+      <img src={subhashini} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title">Subhakshini</h5>
+        <h5 class="card-title fw-bolder"><b>Subhashini</b></h5>
         
-        <button className='btn' onClick={()=>check("Subhkshini")}>Vote!</button>
+        <button className='btn fw-bolder' onClick={()=>check("Subhkshini")}>Vote!</button>
       </div>
     </div>
   </div>
@@ -45,8 +46,8 @@ function Vote() {
     <div class="card h-100">
       <img src={roshan} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title fw-bolder">Roshan</h5>
-        <button className='btn fw-bolder' onClick={()=>check("Roshan")}>vote!</button>
+        <h5 class="card-title fw-bolder"><b>Roshan</b></h5>
+        <button className='btn fw-bolder' onClick={()=>check("Roshan")}>Vote!</button>
       </div>
     </div>
   </div>
@@ -54,9 +55,9 @@ function Vote() {
     <div class="card h-100" border-black>
       <img src={aniruth} class="card-img-top" alt="..."/>
       <div class="card-body">
-        <h5 class="card-title fw-bolder">Aniruth Varma</h5>
+        <h5 class="card-title fw-bolder"><b>Aniruth Varma</b></h5>
         
-        <button className='btn btn-l' onClick={()=>check("Aniruth")}><b>Vote!</b></button>
+        <button className='btn btn-l fw-bolder' onClick={()=>check("Aniruth")}>Vote!</button>
       </div>
     </div>
   </div>
